@@ -21,9 +21,7 @@ def test_search(driver):
     search_bar.wait_for_popover()
     search_bar.type_origin_destination("Orlando, FL (MCO)")
     #search_bar.wait_for_search_results()
-    time.sleep(100)
+    time.sleep(5)
     # test fails here, because options list infinity loadings due to selenium detection on the original site.
-    search_bar.choose_origin_city("Orlando, FL (MCO)")
+    search_bar.choose_origin_city("Orlando, FL, United States of America (MCO-Orlando Intl.)")
     # I stopped to create the test here, because the website detected and blocked Selenium actions.
-
-
