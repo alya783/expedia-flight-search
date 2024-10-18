@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "expedia-flight-search"
+version = "0.1.0"
+description = ""
+authors = ["Alina"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+webdriver-manager = "^4.0.2"
+selenium = "^4.25.0"
+selenium-stealth = "^1.0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
